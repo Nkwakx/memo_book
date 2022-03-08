@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Gill Sans" sans-serif;
+  font-size: 15px;
+  font-weight: 10px;
+  color: #545454;
+  background-color: #dcdaa9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1{
+  font-size: 2em;
+  font-weight: bold;
+}
