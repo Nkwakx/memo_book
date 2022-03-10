@@ -9,14 +9,14 @@ export default function NavBar() {
       <div className="top-nav">
         <h2 className="logo"><span>Flex</span>Mind<i className="nav-icon"><TiArrowShuffle/></i></h2>
        
-        <form className="searchBox">
+        <div className="searchBox">
             <input className="searchInput"type="text" name="" placeholder="Search"/>
             <button className="searchButton" href="#">
                 <i className="material-icons">
                     search
                 </i>
             </button>
-        </form>
+        </div>
        
         <h4 className="auth"><BiLogIn/></h4>
       </div>
