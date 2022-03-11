@@ -167,11 +167,11 @@
   font-size: 50px;
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 20%;
   z-index: 10;
 }
 .slide-text {
-  top: 100px;
+  top: 40%;
   font-size: 2rem;
 }
 .prev,
@@ -236,7 +236,7 @@
   margin: 10px auto 100px auto;
   padding: 10px;
 }
-.toDoForm {
+.memoForm {
   margin-bottom: 4px;
   display: flex;
 }
@@ -265,7 +265,7 @@ form {
 form h3 {
   text-align: center;
 }
-.toDoForm
+.memoForm
 input[type="text"] {
   width: 100%;
   padding: 12px 20px;
@@ -274,7 +274,7 @@ input[type="text"] {
   border: none;
   border-bottom: 1px solid #545454;
 }
-.toDoForm
+.memoForm
 input[type="text"]:focus {
   background-color: rgb(205, 236, 246);
 }
@@ -282,7 +282,7 @@ input:focus,
 button:focus {
   outline: none;
 }
-.todo input {
+.memo input {
   cursor: pointer;
   width: 50%;
   border: none;
@@ -310,11 +310,11 @@ button:focus {
   font-weight: 500;
 }
 
-.todo_container {
+.memo_container {
   max-width: 640px;
   margin: 0 auto;
 }
-.todo {
+.memo {
   margin-top: 20px;
   background: white;
   padding: 10px 20px;
@@ -352,7 +352,7 @@ button:focus {
   .memo-book{
     width: 400px;
   }
-  .toDoForm{
+  .memoForm{
     width: 430px;
   }
 }
@@ -364,6 +364,7 @@ button:focus {
 /* ================== ~GAMES STARTS~ =================== */
 
 .game-container{
+  margin-bottom: 20px;
   margin-top: 10px;
   margin-left: 25%;
   height: 700px;

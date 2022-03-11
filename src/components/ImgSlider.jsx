@@ -6,28 +6,28 @@ import img5 from "../assets/images/img5.jpg";
 
 const ImgSlider =  [
     {
-        title: "First image",
-        description: "Des Des Des",
+        title: "Reading..",
+        description: "Flex your mind by reading and enjoy the enhancement of knowledge",
         urls: img1,
     },
     {
-        title: "Second image",
-        description: "Des Des Des",
+        title: "The Cabinate",
+        description: "Keep your books for the history to pass on to the next generation",
         urls: img2,
     },
     {
-        title: "3rd image",
-        description: "Des Des Des",
+        title: "The Game",
+        description: "Play with other kids when need be",
         urls: img3,
     },
     {
-        title: "4th image",
-        description: "Des Des Des",
+        title: "Family Relation",
+        description: "Playing with your family is everything.",
         urls: img4,
     },
     {
-        title: "5th image",
-        description: "Des Des Des",
+        title: "We Got You",
+        description: "Use your smartphones to download and play our game",
         urls: img5,
     },
 ];
